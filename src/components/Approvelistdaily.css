@@ -1,0 +1,44 @@
+.approvelist{
+    position: fixed;
+    top: 110px;
+    left: 313px;
+
+    width: 78%;
+    height: 50px;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 5pt 5pt .1pt #D3D3D3;
+}
+
+.approvetitle{
+    width: 100%;
+    display: flex;  
+    align-items: center;
+}
+
+.approvetitle h1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 12px;
+    color: rgb(65,150,0);
+    min-width: fit-content;
+}
+.inputform{
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+.firstform{
+    width: 900px;
+}
+#first{
+    padding-right: 5px;
+    width: 15%;
+}
+#second{
+    width: 25%;
+}
+#third{
+    width: 15%;
+}

@@ -1,0 +1,51 @@
+.tasklist{
+    position: fixed;
+    top: 162px;
+    left: 313px;
+    width: 78%;
+    height: 50px;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 5pt 5pt .1pt #D3D3D3;
+    white-space: nowrap;
+    
+}
+
+.task ul{
+    column-gap: 10px;
+    margin-left: 10px;
+    display: flex;  
+    align-items: center;
+    cursor: pointer;
+}
+
+.task ul li{
+    height: 35px;
+    width: 140px;
+    display: flex;  
+    align-items: center;
+    padding-left: 10px;
+    font-size: 0.7rem;
+    color: #a6a7a7;
+    background-color: #f8fafb;
+    border: 1px solid #e0e1e1;
+    border-radius: 5px;
+}
+.icon{
+    padding-right: 10px;
+}
+
+#first{
+    width: 120px;
+}
+
+#second{
+    width: 200px;
+}
+
+#third{
+    width: 120px;
+}
+

@@ -1,0 +1,44 @@
+[
+    {    
+        "id":"1",
+        "num":"001",
+        "name":"Mc Rolen",
+        "brand":"apple",
+        "serial":"1544878",
+        "vendor":"apple",
+        "quantity":"1",
+        "amount":"40000"
+    },
+    {    
+        "id":"2",
+        "num":"002",
+        "name":"Tony Stark",
+        "brand":"apple",
+        "serial":"1548757",
+        "vendor":"apple",
+        "quantity":"1",
+        "amount":"40000"
+    },
+    {    
+        "id":"3",
+        "num":"003",
+        "name":"Steve Roger",
+        "brand":"apple",
+        "serial":"1548757",
+        "vendor":"apple",
+        "quantity":"1",
+        "amount":"40000"
+    },
+    {    
+        "id":"4",
+        "num":"004",
+        "name":"Spider",
+        "brand":"apple",
+        "serial":"1548757",
+        "vendor":"apple",
+        "quantity":"1",
+        "amount":"40000"
+    }
+    
+]
+                        

@@ -1,0 +1,257 @@
+.waitlist{
+    position: absolute;
+    top: 220px;
+    left: 640px;
+    width: 60%;
+    /* height: 450px; */
+    height: 460px;
+    /* background-color: yellow; */
+    overflow-x: scroll;
+    border-radius: 5px 5px 5px 5px;
+    z-index: -1;
+    /* background-color: white; */
+}
+
+.waitlistheader,
+.waitlistrecord,
+.waitlistreport,
+.waitlistfooter{
+    position: absolute;
+    width: 80vw;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 5pt 5pt .1pt #D3D3D3;
+}
+.waitlistheader{
+    display: flex;  
+    align-items: center;
+}
+
+/* บันทึกใบเบิกครุภัณฑ์ */
+.waitlistrecord{ 
+    /* top: 272px; */
+    top: 52px;
+    border-radius: 0 0 0 0;
+    display: flex;  
+    align-items: center;
+}
+/* รายงานบันทึกใบเบิกครุภัณฑ์ */
+.waitlistreport{
+    /* top: 324px; */
+    top: 103px;
+    border-radius: 0 0 0 0;
+    height: 250px;
+}
+.waitlistreport button{
+    position: absolute;
+    top: 85%;
+    right: 2%;
+    width: 120px;
+    height: 25px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.waitlistfooter{
+    top: 354px;
+    border-radius: 0 0 5px 5px;
+    min-height: 150px;
+    height: auto;
+    /* width: 80vw; */
+}
+.waitlistfooter p{
+    padding-left: 15px;
+    padding-top: 15px;
+    color: rgb(65,150,0);
+    font-size: 0.8rem;
+}
+.waitlistfooter form table{
+    width: 100%;
+}
+.waitlistfooter form table thead{
+    background-color: #f7fcf3;
+    color: rgb(65,150,0);
+    font-size: 0.8rem;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* header table */
+.waitlistfooter form table thead th:nth-child(1),
+.waitlistfooter form table thead th:nth-child(7),
+.waitlistfooter form table thead th:nth-child(8){
+    width: 10%;
+}
+.waitlistfooter form table thead th:nth-child(2),
+.waitlistfooter form table thead th:nth-child(3),
+.waitlistfooter form table thead th:nth-child(4),
+.waitlistfooter form table thead th:nth-child(5),
+.waitlistfooter form table thead th:nth-child(6){
+    width: 15%;
+}
+.waitlistfooter form table thead th:nth-child(9){
+    width: 5%;
+}
+
+.waitlistfooter form table tr{
+    background-color: #f8fafb;
+    color: rgb(65,150,0);
+    font-size: 0.8rem;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.waitlistfooter form table tr td{
+    display: flex;
+    justify-content: center;
+}
+.waitlistfooter form table tr td .report{
+    text-align: center;
+    padding-left: 0;
+    width: 80%;
+}
+
+.waitlistfooter form table tr td button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    color: rgba(0, 0, 0, 0.5);
+}
+.waitlistfooter form table tr:nth-child(2n){
+    background-color: #fff;
+}
+
+/* data */
+.waitlistfooter form table tr td:nth-child(1),
+.waitlistfooter form table tr td:nth-child(7),
+.waitlistfooter form table tr td:nth-child(8){
+    width: 10%;
+}
+.waitlistfooter form table tr td:nth-child(n+2):nth-child(-n+6){
+    width: 15%;
+}
+.waitlistfooter form table tr td:nth-child(9){
+    width: 5%;
+}
+
+/* addform */
+/* .waitlistfooter .addform{
+    display: flex;
+}
+
+.waitlistfooter .addform input{
+    width: 80%;
+    text-align: center;
+}
+
+.waitlistfooter .addform button{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.waitlistfooter .addform input:nth-child(1),
+.waitlistfooter .addform input:nth-child(7),
+.waitlistfooter .addform input:nth-child(8){
+    width: 15%;
+}
+.waitlistfooter .addform input:nth-child(n+2):nth-child(-n+6){
+    width: 10%;
+}
+.waitlistfooter .addform button{
+    width: 5%;
+} */
+
+.waitlistheader h1,
+.waitlistrecord h1,
+.waitlistreport h1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 15px;
+    color: rgb(65,150,0);
+}
+.waitlistrecord h1,
+.waitlistreport h1{
+    font-weight: normal;
+    color: #64a930;
+}
+.waitlistreport h1{
+    position: absolute;
+    bottom: 15px;
+}
+.buttonsection{
+    position: absolute;
+    right: 2%;
+    display: flex;
+    align-items: center;
+}
+.buttonsection button{
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* ----------------- grid ----------------- */
+.waitlistreport > .waitlistreportinput{
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+}
+.waitlistreportinput > label{
+    display: grid;
+    grid-template-columns : 1fr 2fr 0.5fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    align-items: center;
+}
+.waitlistreportinput > label span{
+    padding-left: 10px;
+}
+.waitlistreportinput{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    font-size: 0.6rem;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: normal;
+    color: #64a930;
+    /* background-color: orange; */
+}
+.report{
+    height: 25px;
+    width: 100%;
+    padding-left: 10px;
+    border: solid 1px #b4d59b;
+    border-radius: 3px;
+}
+.textarea{
+    height: 50px;
+    display: flex;
+    align-items: start;
+}
+
+.detailwaitlistsection{
+    position: absolute;
+    top: 272px;
+    left: 640px;
+    width: 849px;
+    height: 400px;
+    background-color: white;
+    border-radius: 0 0 5px 5px ;
+    box-shadow: 0 5pt 5pt .1pt #D3D3D3;
+    overflow-y: scroll;
+}
+

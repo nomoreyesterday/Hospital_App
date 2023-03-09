@@ -1,0 +1,33 @@
+.footer{
+    position: fixed;
+    top: 677px;
+    left: 313px;
+    width: 78%;
+    height: 74px;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+    border-radius: 5px ;
+    box-shadow: 0 5pt 5pt .1pt #D3D3D3;
+}
+
+.footerlist{
+    display: flex;  
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.footerlist h1{
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgb(65,150,0);
+    min-width: fit-content;
+}
+
+.list{
+    color: #aaabac;
+    font-size: 0.8rem;
+    padding-left: 20px;
+    margin-right: 30px;
+}

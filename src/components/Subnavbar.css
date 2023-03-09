@@ -1,0 +1,19 @@
+
+.subnavbar{
+    position: fixed;
+    top: 53px;
+    left: 298px;
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    display: flex;  
+    align-items: center;
+}
+
+.navtitle h1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 30px;
+    color: rgb(65,150,0);
+
+}

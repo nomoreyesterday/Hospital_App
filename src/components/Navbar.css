@@ -1,0 +1,94 @@
+@import '../global.css';
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 298px;
+    padding-left: 10px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+::placeholder{
+    color: #abacad;
+}
+
+.inputform{
+    padding-left: 10px;
+    height: 30px;
+    width: 220px;
+    border: solid 1px #b4d59b;
+    border-radius: 5px;
+}
+
+input:focus{
+    box-shadow: 0 0 2pt .5pt #D3D3D3;
+    outline-width: 0px;
+}
+
+.searhform{
+    display: flex;
+    align-items: center;
+}
+
+.searhform .searchbutton{
+    background-color: white;
+    padding-top: 5px;
+    text-indent: -40px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.searhform .searchbutton:hover{
+    opacity: 1;
+}
+
+/* button[type="submit"]:focus,
+input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+} */
+
+.rightside{
+    position: absolute;
+    right: 20px;
+    column-gap: 50px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allmobile{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.mobile{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.allprofile{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile{
+    background-color: gray;
+    height: 28px;
+    width: 28px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
